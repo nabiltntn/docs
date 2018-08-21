@@ -58,7 +58,7 @@ async function performTask() {
 > examples, this means it will be available as `tool.default`.  It can be
 > helpful to use parameter de-structuring to provide additional clarity:
 >
-> ```js
-import("another-tool").then(({ default: thatTool }) => thatTool.go());
-
+```js
+  import("another-tool").then(({ default: thatTool }) => thatTool.go());
 ```
+> 
